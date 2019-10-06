@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-      <router-view />
+  <div id="header_top">
+      <h1>헤더입니다.</h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import { Vue, Component, Prop } from "vue-property-decorator";
 
 @Component
-export default class App extends Vue {
+export default class Header extends Vue {
 }
 </script>
 
