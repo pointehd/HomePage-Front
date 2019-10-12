@@ -30,7 +30,7 @@ export default class Home extends Vue {
 
   private async getData(): Promise<void> {
     const result: any = await axios.get(
-      "http://13.124.180.130:8000/api/articles"
+      "http://15.164.228.146:8000/api/articles"
     );
     this.da = result.data.data.articles;
   }

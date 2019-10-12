@@ -11,10 +11,10 @@ class ServerApp {
     createServer(){
         this.middleware();
         this.routes();
-        this.express.set('port', 8080);
+        this.express.set('port', 80);
 
         this.server = http.createServer(this.express);
-        this.server.listen(8080);
+        this.server.listen(80);
     }
 
     middleware() {
