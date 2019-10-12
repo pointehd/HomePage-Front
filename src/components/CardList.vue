@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <h2>카드리스트</h2>
+    <div class="content">
         <ul class="cards">
             <Card v-for="(da, index) in datas" :key="index" :aa="da"/>      
         </ul>

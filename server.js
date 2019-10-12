@@ -31,6 +31,16 @@ class ServerApp {
             const filePath = path.join('dist', 'index.html');
             res.sendfile(filePath);
         });
+        this.express.get('/api/articles', (req, res, next) => {
+            // const filePath = path.join('dist', 'index.html');
+            // res.sendfile(filePath);
+            // res.send([
+            //     {
+            //         title:"asdf",
+                    
+            //     }
+            // ])
+        });
     }
 }
 
