@@ -1,7 +1,7 @@
 <template>
   <DefaultLayout>
     <div class="content_de">
-      <div>{{markList.title}}</div>
+      <div>{{markList.title}} 씨발.</div>
       <div class="mark_content" v-html="markDown"></div>
       <div>{{markList.date}}</div>
     </div>
