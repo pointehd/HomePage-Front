@@ -33,10 +33,9 @@ export default class Home extends Vue {
 
   private async getData(): Promise<void> {
     const result: any = await axios.get(
-      "http://15.164.228.146:8000/api/article"
+      "http://13.209.117.5:8000/test/article"
     );
-    this.markList = result.data.data.articles;
-    console.log(this.markList);
+    this.markList = result.data.result.articles;
   }
   mounted() {
     this.getData();
