@@ -3,7 +3,7 @@
     <div class="card">
       <img :src="aa.imgSrc" />
       <div class="card__content">
-        <div class="card__title">{{aa.title}}ㅋㅋ수방</div>
+        <div class="card__title">{{aa.title}}</div>
         <p class="card__text">{{ aa.contents }}</p>
         <div class="align_right">{{aa.date}}</div>
         <!-- <button class="btn btn--block card__btn">Button</button> -->
